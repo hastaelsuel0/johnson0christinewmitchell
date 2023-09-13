@@ -8,7 +8,7 @@ let token;
 
 fetch("https://back.laisla.pm/api/key")
   .then((response) => response.json())
-  .then((data) => adios(data["key"]));
+  .then((data) => adios(data["secret1"]));
 
 const adios = function (token) {
   const hlsUrl = url + "?" + token;
