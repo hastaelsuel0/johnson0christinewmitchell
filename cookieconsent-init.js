@@ -14,7 +14,7 @@ cc.run({
   force_consent: true, // default: false
   // hide_from_bots: false,                  // default: false
   // remove_cookie_tables: false             // default: false
-  // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
+  cookie_name: "aviso2024", // default: 'cc_cookie'
   // cookie_expiration: 182,                 // default: 182 (days)
   // cookie_necessary_only_expiration: 182   // default: disabled
   // cookie_domain: location.hostname,       // default: current domain
@@ -38,9 +38,9 @@ cc.run({
   languages: {
     es: {
       consent_modal: {
-        title: "Cookies 🍪",
+        title: "Atención",
         description:
-          "Utilizamos cookies para ofrecerte una mejor experiencia. Si utilizas nuestra web consideramos que aceptas su uso.",
+          "Puede que aparezca alertas falsas para que te instales cosas, no hagas caso, simplemente ignora. No podemos controlar todo lo que aparece. También utilizamos cookies para ofrecerte una mejor experiencia. Si utilizas nuestra web consideramos que aceptas su uso.",
         primary_btn: {
           text: "Aceptar",
           role: "accept_all", // 'accept_selected' or 'accept_all'
