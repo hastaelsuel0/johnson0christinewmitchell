@@ -6,8 +6,6 @@ const captions_file = argz.get("c");
 
 let token;
 
-
-
 fetch("https://back.laisla.pm/api/key")
   .then((response) => response.json())
   .then((data) => adios(data["secret1"]));
