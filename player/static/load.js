@@ -17,10 +17,6 @@ function detectAdBlock() {
     return adBlockEnabled;
   }
 }
-if (detectAdBlock()) {
-  alert("Desactiva tu AdBlock y vuelve a entrar");
-  return;
-};
 
 fetch("https://back.laisla.pm/api/key")
   .then((response) => response.json())
