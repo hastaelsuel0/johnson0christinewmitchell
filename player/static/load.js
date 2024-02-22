@@ -18,7 +18,7 @@ function detectAdBlock() {
   }
 }
 if (detectAdBlock()) {
-  alert("Desactivar tu AdBlock y vuelve a entrar");
+  alert("Desactiva tu AdBlock y vuelve a entrar");
   return;
 };
 
