@@ -7,7 +7,7 @@ const captions_file = argz.get("c");
 let token;
 
 const adios = function (token) {
-  const hlsUrl = "https://laisla.pm/notfound.m3u8" + "?" + token;
+  const hlsUrl = "https://streamable.com/l/6d054u/mp4.mp4" + "?" + token;
   window.location.assign(
     "player.html?u=" + hlsUrl + "&i=" + postImage + "&c=" + captions_file
   );
