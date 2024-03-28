@@ -13,4 +13,4 @@ const adios = function (token) {
   );
 };
 
-adios("");
+//adios("");
